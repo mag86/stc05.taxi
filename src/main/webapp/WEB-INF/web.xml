@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://java.sun.com/xml/ns/j2ee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd"
+         version="2.4">
+    <display-name>Archetype Created Web Application</display-name>
+    <servlet>
+        <servlet-name>HelloServlet</servlet-name>
+        <servlet-class>main.controllers.HelloServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>LoginServlet</servlet-name>
+        <servlet-class>main.controllers.LoginServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>RegServlet</servlet-name>
+        <servlet-class>main.controllers.RegServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>ErrorServlet</servlet-name>
+        <servlet-class>main.controllers.ErrorServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>ListServlet</servlet-name>
+        <servlet-class>main.controllers.ListController</servlet-class>
+    </servlet>
+    <filter>
+        <filter-name>WhiteFilter</filter-name>
+        <filter-class>main.controllers.filters.WhiteList</filter-class>
+    </filter>
+    <filter-mapping>
+        <filter-name>WhiteFilter</filter-name>
+        <url-pattern>/listCars</url-pattern>
+    </filter-mapping>
+
+    <servlet-mapping>
+        <servlet-name>HelloServlet</servlet-name>
+        <url-pattern>/hello</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>LoginServlet</servlet-name>
+        <url-pattern>/</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>RegServlet</servlet-name>
+        <url-pattern>/registration</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ErrorServlet</servlet-name>
+        <url-pattern>/error</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ListServlet</servlet-name>
+        <url-pattern>/listCars</url-pattern>
+    </servlet-mapping>
+</web-app>
