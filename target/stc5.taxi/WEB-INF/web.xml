@@ -24,6 +24,10 @@
         <servlet-name>ListServlet</servlet-name>
         <servlet-class>main.controllers.ListController</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>AddCarServlet</servlet-name>
+        <servlet-class>main.controllers.AddCarServlet</servlet-class>
+    </servlet>
     <filter>
         <filter-name>WhiteFilter</filter-name>
         <filter-class>main.controllers.filters.WhiteList</filter-class>
@@ -52,5 +56,9 @@
     <servlet-mapping>
         <servlet-name>ListServlet</servlet-name>
         <url-pattern>/listCars</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>AddCarServlet</servlet-name>
+        <url-pattern>/addcar</url-pattern>
     </servlet-mapping>
 </web-app>

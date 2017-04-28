@@ -32,16 +32,20 @@ public class RegServlet extends HttpServlet {
 
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        String name = req.getParameter("login");
+        String name = req.getParameter("name");
         String phone_number = req.getParameter("phone_number");
         String user_address = req.getParameter("user_address");
         String login = req.getParameter("login");
         String password = req.getParameter("password");
 
+
         if (userService.reg(name, phone_number, user_address,
                 login, password) != null) {
 
             logger.debug("user: " + login + " registred" );
+            req.getSession().setAttribute("greeting new user", "Здравствуйте, вы успешно зарегистрировались, ");
+            req.getSession().setAttribute("loginnew", login);
+
             resp.sendRedirect(req.getContextPath() + "/login");
         }
 

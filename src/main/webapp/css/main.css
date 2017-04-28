@@ -46,3 +46,9 @@ h3{
     font-size: 25px;
     text-align:center;
 }
+
+#registration{
+    display: block;
+    text-align: center;
+    padding-bottom: 14px;
+}

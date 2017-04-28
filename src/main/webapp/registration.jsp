@@ -39,7 +39,7 @@
                     <h3 class="panel-title">Зарегистрируйтесь бесплатно</h3>
                 </div>
                 <div class="panel-body">
-                    <form role="form" method="post" action="/registration/" >
+                    <form role="form" method="post" action="/registration" >
                                 <div class="form-group">
                                     <input type="text" name="name" id="first_name" class="form-control input-sm floatlabel" placeholder="Ваше имя">
                                 </div>

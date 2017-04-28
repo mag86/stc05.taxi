@@ -38,6 +38,8 @@ public class LoginServlet extends HttpServlet {
         String login = req.getParameter("login");
         String password = req.getParameter("password");
 
+        req.getSession().getAttribute("greeting");
+
         if (userService.auth(login, password) != null) {
             req.getSession().setAttribute("userLogin", login);
             logger.debug("user: " + login + " logged" );

@@ -84,12 +84,13 @@ public class UserDAOImpl implements UserDAO {
             statement.setString(4, login);
             statement.setString(5, password);
             statement.setBoolean(6, false);
-            ResultSet resultSet = statement.executeQuery();
-            if (resultSet.next()) {
-                user = createEntity(resultSet);
+
+            if ( (statement.executeUpdate())!=0) {
+                user = this.findUserByLoginAndPassword(login, password);
             }
 
-            logger.debug("registred user " + user);
+
+            logger.debug("registred user " + password);
         } catch (SQLException e) {
             logger.error(e);
         }

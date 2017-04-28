@@ -15,7 +15,8 @@
     <title>Login</title>
 </head>
 <body>
-
+<% String greetingnew = (String) session.getAttribute("greeting new user");%>
+<% String loginnew = (String) request.getAttribute("loginnew");%>
 
 <div class="container">
     <div class="row centered-form">
@@ -23,7 +24,10 @@
         <div class="col-xs-12 col-sm-8 col-md-4 col-sm-offset-2 col-md-offset-4">
             <div class="panel panel-default">
                 <div class="panel-heading">
-                    <h3 class="panel-title">Войдите в свой аккаунт</h3>
+                    <h3 class="panel-title"><%if ((greetingnew!=null)&&(loginnew!=null)){%>
+                        <%=greetingnew%>,<%=loginnew%>!
+                        <%}%>
+                        Войдите в свой аккаунт</h3>
                 </div>
                 <div class="panel-body">
                     <form role="form" method="post" action="/students/" >
@@ -36,6 +40,7 @@
                         <input type="submit" value="Вход" class="btn btn-info btn-block">
 
                     </form>
+                    <a href="/registration" id="registration">Регистрация</a>
                 </div>
             </div>
         </div>
