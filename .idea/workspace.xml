@@ -1,101 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9efaab1d-f332-431f-b86a-1224c2e2237b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/stc5_taxi_war.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/stc5_taxi_war_exploded.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_activation_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_mail_mail_1_4_7.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_acl_3_2_3_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_config_3_2_3_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_core_3_2_3_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_taglibs_3_2_3_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_web_3_2_3_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_3_8_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_3_8_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_3_8_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_3_8_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_3_8_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_4_3_8_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_4_3_8_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_4_3_8_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_4_3_8_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/main/controllers/filters/Utf8Filter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/utils/LoggerInterceptor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/security.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-database.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/editcar.jsp" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/artifacts/stc5_students_war.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/artifacts/stc5_students_war_exploded.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/dataSources/d0ea3390-2453-4fdd-852a-22c21de8dca4.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stc5.students.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stc5students.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/main/controllers/LoginServlet.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/stc5.taxi/WEB-INF/classes/main/controllers/LoginServlet.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/stc5.taxi/registration.jsp" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/main/controllers/LoginServlet.java" afterPath="$PROJECT_DIR$/src/main/java/main/controllers/LoginController.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/registration.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/register.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/main/controllers/AddCarServlet.class" afterPath="$PROJECT_DIR$/target/classes/main/controllers/AddCarServlet.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/main/controllers/ErrorServlet.class" afterPath="$PROJECT_DIR$/target/classes/main/controllers/ErrorServlet.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/main/controllers/ListController.class" afterPath="$PROJECT_DIR$/target/classes/main/controllers/ListController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/main/controllers/RegServlet.class" afterPath="$PROJECT_DIR$/target/classes/main/controllers/RegServlet.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/main/model/dao/CarsDAO.class" afterPath="$PROJECT_DIR$/target/classes/main/model/dao/CarsDAO.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/main/model/dao/CarsDAOImpl.class" afterPath="$PROJECT_DIR$/target/classes/main/model/dao/CarsDAOImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/main/model/dao/UserDAOImpl.class" afterPath="$PROJECT_DIR$/target/classes/main/model/dao/UserDAOImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/main/model/pojo/Cars.class" afterPath="$PROJECT_DIR$/target/classes/main/model/pojo/Cars.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/main/model/pojo/User.class" afterPath="$PROJECT_DIR$/target/classes/main/model/pojo/User.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/main/services/CarsService.class" afterPath="$PROJECT_DIR$/target/classes/main/services/CarsService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/main/services/CarsServiceImpl.class" afterPath="$PROJECT_DIR$/target/classes/main/services/CarsServiceImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/main/services/UserServiceImpl.class" afterPath="$PROJECT_DIR$/target/classes/main/services/UserServiceImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/stc5.taxi.war" afterPath="$PROJECT_DIR$/target/stc5.taxi.war" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/stc5.taxi/WEB-INF/classes/main/controllers/AddCarServlet.class" afterPath="$PROJECT_DIR$/target/stc5.taxi/WEB-INF/classes/main/controllers/AddCarServlet.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/stc5.taxi/WEB-INF/classes/main/controllers/ErrorServlet.class" afterPath="$PROJECT_DIR$/target/stc5.taxi/WEB-INF/classes/main/controllers/ErrorServlet.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/stc5.taxi/WEB-INF/classes/main/controllers/ListController.class" afterPath="$PROJECT_DIR$/target/stc5.taxi/WEB-INF/classes/main/controllers/ListController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/stc5.taxi/WEB-INF/classes/main/controllers/RegServlet.class" afterPath="$PROJECT_DIR$/target/stc5.taxi/WEB-INF/classes/main/controllers/RegServlet.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/stc5.taxi/WEB-INF/classes/main/model/dao/CarsDAO.class" afterPath="$PROJECT_DIR$/target/stc5.taxi/WEB-INF/classes/main/model/dao/CarsDAO.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/stc5.taxi/WEB-INF/classes/main/model/dao/CarsDAOImpl.class" afterPath="$PROJECT_DIR$/target/stc5.taxi/WEB-INF/classes/main/model/dao/CarsDAOImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/stc5.taxi/WEB-INF/classes/main/model/dao/UserDAOImpl.class" afterPath="$PROJECT_DIR$/target/stc5.taxi/WEB-INF/classes/main/model/dao/UserDAOImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/stc5.taxi/WEB-INF/classes/main/model/pojo/Cars.class" afterPath="$PROJECT_DIR$/target/stc5.taxi/WEB-INF/classes/main/model/pojo/Cars.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/stc5.taxi/WEB-INF/classes/main/model/pojo/User.class" afterPath="$PROJECT_DIR$/target/stc5.taxi/WEB-INF/classes/main/model/pojo/User.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/stc5.taxi/WEB-INF/classes/main/services/CarsService.class" afterPath="$PROJECT_DIR$/target/stc5.taxi/WEB-INF/classes/main/services/CarsService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/stc5.taxi/WEB-INF/classes/main/services/CarsServiceImpl.class" afterPath="$PROJECT_DIR$/target/stc5.taxi/WEB-INF/classes/main/services/CarsServiceImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/stc5.taxi/WEB-INF/classes/main/services/UserServiceImpl.class" afterPath="$PROJECT_DIR$/target/stc5.taxi/WEB-INF/classes/main/services/UserServiceImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/main/controllers/AddCarServlet.java" afterPath="$PROJECT_DIR$/src/main/java/main/controllers/AddCarServlet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/main/controllers/ErrorServlet.java" afterPath="$PROJECT_DIR$/src/main/java/main/controllers/ErrorServlet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/main/controllers/ListController.java" afterPath="$PROJECT_DIR$/src/main/java/main/controllers/ListController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/main/controllers/RegServlet.java" afterPath="$PROJECT_DIR$/src/main/java/main/controllers/RegServlet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/main/model/dao/CarsDAO.java" afterPath="$PROJECT_DIR$/src/main/java/main/model/dao/CarsDAO.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/main/model/dao/CarsDAOImpl.java" afterPath="$PROJECT_DIR$/src/main/java/main/model/dao/CarsDAOImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/main/model/dao/UserDAOImpl.java" afterPath="$PROJECT_DIR$/src/main/java/main/model/dao/UserDAOImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/main/model/pojo/Cars.java" afterPath="$PROJECT_DIR$/src/main/java/main/model/pojo/Cars.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/main/model/pojo/User.java" afterPath="$PROJECT_DIR$/src/main/java/main/model/pojo/User.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/main/services/CarsService.java" afterPath="$PROJECT_DIR$/src/main/java/main/services/CarsService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/main/services/CarsServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/main/services/CarsServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/main/services/UserServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/main/services/UserServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/main.iml" afterPath="$PROJECT_DIR$/src/main/main.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/addCar.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/addCar.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/listCars.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/listCars.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/login.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/login.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stc5.taxi.iml" afterPath="$PROJECT_DIR$/stc5.taxi.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/stc5.taxi/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/target/stc5.taxi/WEB-INF/web.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/stc5.taxi/addCar.jsp" afterPath="$PROJECT_DIR$/target/stc5.taxi/addCar.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/stc5.taxi/listCars.jsp" afterPath="$PROJECT_DIR$/target/stc5.taxi/listCars.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/stc5.taxi/login.jsp" afterPath="$PROJECT_DIR$/target/stc5.taxi/login.jsp" />
-    </list>
+    <list default="true" id="9efaab1d-f332-431f-b86a-1224c2e2237b" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -120,56 +26,6 @@
       </PATH_ELEMENT>
       <PATH_ELEMENT>
         <option name="myItemId" value="taxi@localhost" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-    </PATH>
-    <PATH>
-      <PATH_ELEMENT>
-        <option name="myItemId" />
-        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="taxi@localhost" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="taxi" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="users" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-    </PATH>
-    <PATH>
-      <PATH_ELEMENT>
-        <option name="myItemId" />
-        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="taxi@localhost" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="taxi" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-    </PATH>
-    <PATH>
-      <PATH_ELEMENT>
-        <option name="myItemId" />
-        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="taxi@localhost" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="taxi" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="cars" />
         <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
       </PATH_ELEMENT>
     </PATH>
@@ -1063,12 +919,12 @@
       <workItem from="1495692660488" duration="5807000" />
       <workItem from="1495783023265" duration="669000" />
       <workItem from="1496583367454" duration="1928000" />
-      <workItem from="1496753378791" duration="18199000" />
+      <workItem from="1496753378791" duration="19276000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65873000" />
+    <option name="totallyTimeSpent" value="66950000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -1081,7 +937,7 @@
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16944024" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31996974" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1097,7 +953,7 @@
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.061461795" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2473525" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2473525" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
