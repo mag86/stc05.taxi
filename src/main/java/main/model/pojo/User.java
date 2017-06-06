@@ -17,6 +17,10 @@ public class User {
         this.isBlocked = isBlocked;
     }
 
+    public User(String login) {
+        this.login = login;
+    }
+
     public boolean isBlocked() {
         return isBlocked;
     }

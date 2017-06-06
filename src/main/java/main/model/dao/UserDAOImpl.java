@@ -89,8 +89,14 @@ public class UserDAOImpl implements UserDAO {
                 user = this.findUserByLoginAndPassword(login, password);
             }
 
+            PreparedStatement rolestmnt = connection.prepareStatement("INSERT INTO user_role " +
+                    "(login, user_role) VALUES (?, ?)");
+            rolestmnt.setString(1, login);
+            rolestmnt.setString(2, "ROLE_USER");
 
-            logger.debug("registred user " + password);
+            statement.executeUpdate();
+
+            logger.debug("registered user " + password);
         } catch (SQLException e) {
             logger.error(e);
         }

@@ -8,15 +8,35 @@ import main.model.dao.CarsDAOImpl;
 import main.model.pojo.Cars;
 import main.model.pojo.User;
 import org.apache.log4j.Logger;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Scope;
+import org.springframework.stereotype.Service;
 
 /**
  *
  */
+//@Profiling
+@Service
+@Scope("prototype")
+
 public class CarsServiceImpl implements CarsService {
 
     private static final Logger logger = Logger.getLogger(CarsServiceImpl.class);
 
-    private static CarsDAO carsDAO = new CarsDAOImpl();
+
+
+    @Autowired
+    private CarsDAO carsDAO;
+
+    @Override
+    public Cars getById(Long id) {
+        return carsDAO.getById(id);
+    }
+
+    @Override
+    public void update(Cars car) {
+        carsDAO.update(car);
+    }
 
     @Override
     public List<Cars> getAllCars() {
@@ -38,6 +58,11 @@ public class CarsServiceImpl implements CarsService {
         logger.debug("car successfully added");
 
         return car;
+    }
+
+    @Override
+    public Cars add(Cars car) {
+        return null;
     }
 
     @Override

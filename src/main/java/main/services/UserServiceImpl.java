@@ -5,10 +5,17 @@ import org.apache.log4j.Logger;
 import main.model.dao.UserDAO;
 import main.model.dao.UserDAOImpl;
 import main.model.pojo.User;
+import org.springframework.context.annotation.Scope;
+import org.springframework.stereotype.Service;
 
 /**
  *
  */
+
+//@Profiling
+@Service
+@Scope("prototype")
+
 public class UserServiceImpl implements UserService {
 
     private static final Logger logger = Logger.getLogger(UserServiceImpl.class);

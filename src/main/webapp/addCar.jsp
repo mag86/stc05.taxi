@@ -42,7 +42,7 @@
                         <h3>Внесите данные по авто</h3>
                     </div>
 
-                    <form method="post" action="/addcar">
+                    <form method="post" action="/listCars/addcar">
 
                         <div class="form-group">
                             <input class="form-control input-sm" type="text" name ="car_phonenumber" placeholder="Введите телефон водителя"/>
@@ -74,15 +74,15 @@
                         <div class="form-group">
                             <select class="form-control input-sm"  name="car_color" size=1 style="background: #009966; color: #FFF;" onChange="this.style.backgroundColor=this.options[this.selectedIndex].style.backgroundColor">
                                             <option selected="selected">Выберите цвет автомобиля</option>
-                                            <option value=0 style="background: #fff; color: #000;" >Белый</option>
-                                            <option value=0 style="background: #000; color: #FFF;" >Черный</option>
-                                            <option value=0 style="background: #f00; color: #FFF;" >Красный</option>
-                                            <option value=1 style="background: #ff5400; color: #FFF;">Оранженвый</option>
-                                            <option value=1 style="background: #ffca00; color: #FFF;">Желтый</option>
-                                            <option value=1 style="background: #0f0; color: #FFF;">Зеленый</option>
-                                            <option value=1 style="background: #00fff5; color: #FFF;">Голубой</option>
-                                            <option value=1 style="background: #0600ff; color: #FFF;">Синий</option>
-                                            <option value=1 style="background: #fd00ff; color: #FFF;">Фиолетовый</option>
+                                            <option value="white" style="background: #fff; color: #000;" >Белый</option>
+                                            <option value="black" style="background: #000; color: #FFF;" >Черный</option>
+                                            <option value="red" style="background: #f00; color: #FFF;" >Красный</option>
+                                            <option value="orange" style="background: #ff5400; color: #FFF;">Оранженвый</option>
+                                            <option value="yellow" style="background: #ffca00; color: #FFF;">Желтый</option>
+                                            <option value="green" style="background: #0f0; color: #FFF;">Зеленый</option>
+                                            <option value="skyey" style="background: #00fff5; color: #FFF;">Голубой</option>
+                                            <option value="blue" style="background: #0600ff; color: #FFF;">Синий</option>
+                                            <option value="violet" style="background: #fd00ff; color: #FFF;">Фиолетовый</option>
                             </select>
                         </div>
                         <center>

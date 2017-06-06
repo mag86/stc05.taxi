@@ -13,7 +13,7 @@ public class Cars {
     private String car_number;
     private String car_color;
 
-    private Group group;
+    //private Group group;
     private int groupId;
 
     public Cars(){
@@ -36,7 +36,7 @@ public class Cars {
         this.car_name = car_name;
         this.car_number = car_number;
         this.car_color = car_color;
-        this.group = group;
+        //this.group = group;
         this.groupId = groupId;
     }
 
@@ -92,14 +92,14 @@ public class Cars {
     }
 
 
+//
+//    public Group getGroup() {
+//        return group;
+//    }
 
-    public Group getGroup() {
-        return group;
-    }
-
-    public void setGroup(Group group) {
-        this.group = group;
-    }
+//    public void setGroup(Group group) {
+//        this.group = group;
+//    }
 
     public int getGroupId() {
         return groupId;

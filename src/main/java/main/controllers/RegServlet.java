@@ -4,7 +4,9 @@ import main.services.UserService;
 import main.services.UserServiceImpl;
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
+import org.springframework.web.context.support.SpringBeanAutowiringSupport;
 
+import javax.servlet.ServletConfig;
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
@@ -16,7 +18,7 @@ import java.io.IOException;
  */
 public class RegServlet extends HttpServlet {
     static {
-        PropertyConfigurator.configure(LoginServlet.class.getClassLoader()
+        PropertyConfigurator.configure(LoginController.class.getClassLoader()
                 .getResource("log4j.properties"));
     }
 
@@ -26,7 +28,7 @@ public class RegServlet extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        req.getRequestDispatcher("/registration.jsp")
+        req.getRequestDispatcher("/register.jsp")
                 .forward(req, resp);
     }
 
@@ -49,5 +51,12 @@ public class RegServlet extends HttpServlet {
             resp.sendRedirect(req.getContextPath() + "/login");
         }
 
+    }
+
+    @Override
+    public void init(ServletConfig config) throws ServletException {
+        super.init(config);
+        SpringBeanAutowiringSupport.processInjectionBasedOnServletContext(this,
+                config.getServletContext());
     }
 }

@@ -6,11 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="stc5.students" />
+        <module name="stc5.taxi" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="stc5.students" target="1.8" />
+      <module name="stc5.taxi" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

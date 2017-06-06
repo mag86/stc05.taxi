@@ -4,61 +4,112 @@
          xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd"
          version="2.4">
     <display-name>Archetype Created Web Application</display-name>
+    <context-param>
+        <param-name>ADMIN_EMAIL</param-name>
+        <param-value>mikoyan118@gmail.com</param-value>
+    </context-param>
+
+    <context-param>
+        <param-name>contextConfigLocation</param-name>
+        <param-value>WEB-INF/Main-servlet.xml</param-value>
+    </context-param>
+
     <servlet>
-        <servlet-name>HelloServlet</servlet-name>
-        <servlet-class>main.controllers.HelloServlet</servlet-class>
+        <servlet-name>Main</servlet-name>
+        <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
     </servlet>
-    <servlet>
-        <servlet-name>LoginServlet</servlet-name>
-        <servlet-class>main.controllers.LoginServlet</servlet-class>
-    </servlet>
-    <servlet>
-        <servlet-name>RegServlet</servlet-name>
-        <servlet-class>main.controllers.RegServlet</servlet-class>
-    </servlet>
-    <servlet>
-        <servlet-name>ErrorServlet</servlet-name>
-        <servlet-class>main.controllers.ErrorServlet</servlet-class>
-    </servlet>
-    <servlet>
-        <servlet-name>ListServlet</servlet-name>
-        <servlet-class>main.controllers.ListController</servlet-class>
-    </servlet>
-    <servlet>
-        <servlet-name>AddCarServlet</servlet-name>
-        <servlet-class>main.controllers.AddCarServlet</servlet-class>
-    </servlet>
-    <filter>
-        <filter-name>WhiteFilter</filter-name>
-        <filter-class>main.controllers.filters.WhiteList</filter-class>
-    </filter>
-    <filter-mapping>
-        <filter-name>WhiteFilter</filter-name>
-        <url-pattern>/listCars</url-pattern>
-    </filter-mapping>
 
     <servlet-mapping>
-        <servlet-name>HelloServlet</servlet-name>
-        <url-pattern>/hello</url-pattern>
-    </servlet-mapping>
-    <servlet-mapping>
-        <servlet-name>LoginServlet</servlet-name>
+        <servlet-name>Main</servlet-name>
         <url-pattern>/</url-pattern>
     </servlet-mapping>
-    <servlet-mapping>
-        <servlet-name>RegServlet</servlet-name>
-        <url-pattern>/registration</url-pattern>
-    </servlet-mapping>
-    <servlet-mapping>
-        <servlet-name>ErrorServlet</servlet-name>
-        <url-pattern>/error</url-pattern>
-    </servlet-mapping>
-    <servlet-mapping>
-        <servlet-name>ListServlet</servlet-name>
-        <url-pattern>/listCars</url-pattern>
-    </servlet-mapping>
-    <servlet-mapping>
-        <servlet-name>AddCarServlet</servlet-name>
-        <url-pattern>/addcar</url-pattern>
-    </servlet-mapping>
+
+    <!--UTF-8 filter-->
+    <filter>
+        <filter-name>Utf8Filter</filter-name>
+        <filter-class>main.controllers.filters.Utf8Filter</filter-class>
+        <init-param>
+            <param-name>requestEncoding</param-name>
+            <param-value>UTF-8</param-value>
+        </init-param>
+    </filter>
+    <filter-mapping>
+        <filter-name>Utf8Filter</filter-name>
+        <url-pattern>/*</url-pattern>
+    </filter-mapping>
+
+    <!-- Spring Security -->
+    <filter>
+        <filter-name>springSecurityFilterChain</filter-name>
+        <filter-class>org.springframework.web.filter.DelegatingFilterProxy
+        </filter-class>
+    </filter>
+
+    <filter-mapping>
+        <filter-name>springSecurityFilterChain</filter-name>
+        <url-pattern>/*</url-pattern>
+    </filter-mapping>
+
+    <listener>
+        <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
+    </listener>
+
 </web-app>
+
+    <!--<servlet>-->
+        <!--<servlet-name>HelloServlet</servlet-name>-->
+        <!--<servlet-class>main.controllers.HelloServlet</servlet-class>-->
+    <!--</servlet>-->
+    <!--<servlet>-->
+        <!--<servlet-nLoginControllervlet</servlet-name>-->
+        <!--<servlet-clmain.controllers.LoginControllerlervlet</servlet-class>-->
+    <!--</servlet>-->
+    <!--<servlet>-->
+        <!--<servlet-name>RegServlet</servlet-name>-->
+        <!--<servlet-class>main.controllers.RegServlet</servlet-class>-->
+    <!--</servlet>-->
+    <!--<servlet>-->
+        <!--<servlet-name>ErrorServlet</servlet-name>-->
+        <!--<servlet-class>main.controllers.ErrorServlet</servlet-class>-->
+    <!--</servlet>-->
+    <!--<servlet>-->
+        <!--<servlet-name>ListServlet</servlet-name>-->
+        <!--<servlet-class>main.controllers.ListController</servlet-class>-->
+    <!--</servlet>-->
+    <!--<servlet>-->
+        <!--<servlet-name>AddCarServlet</servlet-name>-->
+        <!--<servlet-class>main.controllers.AddCarServlet</servlet-class>-->
+    <!--</servlet>-->
+    <!--<filter>-->
+        <!--<filter-name>WhiteFilter</filter-name>-->
+        <!--<filter-class>main.controllers.filters.WhiteList</filter-class>-->
+    <!--</filter>-->
+    <!--<filter-mapping>-->
+        <!--<filter-name>WhiteFilter</filter-name>-->
+        <!--<url-pattern>/listCars</url-pattern>-->
+    <!--</filter-mapping>-->
+
+    <!--<servlet-mapping>-->
+        <!--<servlet-name>HelloServlet</servlet-name>-->
+        <!--<url-pattern>/hello</url-pattern>-->
+    <!--</servlet-mapping>-->
+    <!--<servlet-mapping>-->
+        <!--<servlet-nLoginControllervlet</servlet-name>-->
+        <!--<url-pattern>/</url-pattern>-->
+    <!--</servlet-mapping>-->
+    <!--<servlet-mapping>-->
+        <!--<servlet-name>RegServlet</servlet-name>-->
+        <!--<url-pattern>/registration</url-pattern>-->
+    <!--</servlet-mapping>-->
+    <!--<servlet-mapping>-->
+        <!--<servlet-name>ErrorServlet</servlet-name>-->
+        <!--<url-pattern>/error</url-pattern>-->
+    <!--</servlet-mapping>-->
+    <!--<servlet-mapping>-->
+        <!--<servlet-name>ListServlet</servlet-name>-->
+        <!--<url-pattern>/listCars</url-pattern>-->
+    <!--</servlet-mapping>-->
+    <!--<servlet-mapping>-->
+        <!--<servlet-name>AddCarServlet</servlet-name>-->
+        <!--<url-pattern>/addcar</url-pattern>-->
+    <!--</servlet-mapping>-->

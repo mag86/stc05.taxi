@@ -25,12 +25,12 @@
             <div class="panel panel-default">
                 <div class="panel-heading">
                     <h3 class="panel-title"><%if ((greetingnew!=null)&&(loginnew!=null)){%>
-                        <%=greetingnew%>,<%=loginnew%>!
+                        <%=greetingnew%>!
                         <%}%>
                         Войдите в свой аккаунт</h3>
                 </div>
                 <div class="panel-body">
-                    <form role="form" method="post" action="/students/" >
+                    <form role="form" method="post" action="/login" >
                         <div class="form-group">
                             <input type="text" name="login" id="login" class="form-control input-sm floatlabel" placeholder="Ваше имя">
                         </div>
@@ -40,7 +40,7 @@
                         <input type="submit" value="Вход" class="btn btn-info btn-block">
 
                     </form>
-                    <a href="/registration" id="registration">Регистрация</a>
+                    <a href="/register" id="registration">Регистрация</a>
                 </div>
             </div>
         </div>
